@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core
 
 TARGET = addUser
 TEMPLATE = app
@@ -24,4 +24,3 @@ SOURCES += $$SOURCE_DIR/main.cpp \
 HEADERS  += $$HEADER_DIR/captureimage.h \
     $$HEADER_DIR/detectobject.h
 
-FORMS    +=

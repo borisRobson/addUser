@@ -93,6 +93,7 @@ imageWriter::~imageWriter()
 
 void imageWriter::writeImage(Mat &image)
 {
+    resize(image,image ,Size(200,200));
     //set image write params
     vector<int> compression_params;
     compression_params.push_back(CV_IMWRITE_PNG_COMPRESSION);
